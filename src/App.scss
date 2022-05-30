@@ -1,0 +1,35 @@
+.App {
+  flex-grow: 1;
+
+  .MuiContainer-root {
+    overflow: hidden;
+  }
+  .MuiAppBar-colorPrimary {
+    background-color: #db7093 !important;
+  }
+  .title {
+    flex-grow: 1;
+  }
+  .MuiContainer-root {
+    margin-top: 3vh;
+  }
+  .image-gallery-slides {
+    max-height: 300px;
+  }
+  .img-preview {
+    width: -webkit-fill-available;
+    max-height: 250px;
+    border-radius: 10px;
+  }
+  .content{
+    margin-bottom: 80px;
+  }
+  .footer {
+    height: 6vh;
+    bottom: 0px;
+    background-color: #7d7d7d;
+    margin-top: 30px;
+    position: fixed;
+    width: -webkit-fill-available;
+  }
+}
